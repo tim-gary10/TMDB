@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TMDB</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">UpComing...</string>
+    <string name="rating">5.0</string>
+    <string name="search_user">search user</string>
+    <string name="search">Search</string>
+    <string name="latest_movies">Latest Movies</string>
+    <string name="now_playing">Now Playing</string>
+</resources>

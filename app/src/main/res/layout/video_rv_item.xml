@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:background="@color/passcodelock_field_hint_text_color"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/DarkGray">
+
+        <ImageView
+            android:id="@+id/video_imgV"
+            android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/video_item_tV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/Aqua"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/video_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_margin="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <com.codewaves.youtubethumbnailview.ThumbnailView-->
+<!--            android:id="@+id/video_view"-->
+<!--            android:layout_width="140dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            app:youtube_timeVisible="true"-->
+<!--            app:youtube_titleVisible="true"-->
+<!--            app:youtube_timeColor="@color/white"-->
+<!--            app:youtube_timeBackgroundColor="@color/light_black"-->
+<!--            app:youtube_timePaddingBottom="0dp"-->
+<!--            app:youtube_timePaddingTop="0dp"-->
+<!--            app:youtube_timePaddingLeft="5dp"-->
+<!--            app:youtube_timePaddingRight="5dp"-->
+<!--            app:youtube_timeMarginBottom="10dp"-->
+<!--            app:youtube_timeMarginRight="10dp"-->
+<!--            android:transitionName="video_transition"/>-->
+
+
+
+<!--    </LinearLayout>-->
+
+</androidx.cardview.widget.CardView>
